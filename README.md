@@ -23,7 +23,7 @@ AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web ap
 
 ## Step by Step Deployment:
 
-**Step1: Set up the MongoDB Atlas cluster**
+## Step1: Set up the MongoDB Atlas cluster**
          
    MongoDB Atlas provides a free cluster setup. Pls follow the link to setup the [free cluster](https://www.mongodb.com/docs/atlas/getting-started/)
          
