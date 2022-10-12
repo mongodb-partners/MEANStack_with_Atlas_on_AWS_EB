@@ -131,12 +131,16 @@ Refer the below screenshot for further details
 
 ## Step4: Test the application
 
- i. Using the endpoint created by Elastic Beanstalk test the application for CRUD operations and ensure the data are reflected in MongoDB Atlas documents
+ i. The endpoint of the application is displayed in the elastic beanstalk environment.
+ 
+ ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/ebfinalpage.png)
  
  
-sample endpoint:  http://partner-eb-meanstack.us-east-1.elasticbeanstalk.com/
+ Test the application for CRUD operations and ensure the data are reflected in MongoDB Atlas documents
+
 
 ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBSMeanstackOutput-1.png)
+
 
 ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/17.EBSMeanstackupdatedbs-1.png)
 
