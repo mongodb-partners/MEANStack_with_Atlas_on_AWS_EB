@@ -36,7 +36,7 @@ Set up the Elastic Beanstalk cli based on the your environment using the [link](
 
 
   
-**Step3: Set up the AWS Elastic Beanstalk environment**
+## Step3: Set up the AWS Elastic Beanstalk environment
  
  
  a. Git Clone the code from Repo 
@@ -116,7 +116,7 @@ Refer the below screenshot for further details
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp15.png)
 
 
-**Step4: Test the application**
+## Step4: Test the application
 
  i. Using the endpoint created by Elastic Beanstalk test the application for CURD operations and ensure the data are reflecting in MongoDB Atlas documents
  
