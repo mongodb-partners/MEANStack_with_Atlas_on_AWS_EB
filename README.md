@@ -113,13 +113,13 @@ Refer the below screenshot for further details
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp16.png)
  
         
- f. Update the configuration parameters for Loadbalancer 
+ f. Update the configuration parameters for Loadbalancer in the below sequence (only)
  
-  update the Process - deafult port  to 8000
+  a. update the Processes - deafult : Change the port to 8000
   
-  Add a new process for the backend with port 5200
+  b. Add a new process for the backend with port 5200 and HTTP code to 200,404
   
-  insert a new listener for the backend process created.
+  c. insert a new listener for the backend process created.
   
  
  ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/16.EBcreateasampleapp14.png)
