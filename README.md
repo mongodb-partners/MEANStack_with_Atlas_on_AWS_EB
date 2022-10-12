@@ -131,7 +131,7 @@ Refer the below screenshot for further details
 
 ## Step4: Test the application
 
- i. The endpoint of the application is displayed in the elastic beanstalk environment.
+ The endpoint of the application is displayed in the elastic beanstalk environment. ex: partner-eb-meanstack-atlas-dev2.us-east-1.elasticbeanstalk.com
  
  ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/ebfinalpage.png)
  
