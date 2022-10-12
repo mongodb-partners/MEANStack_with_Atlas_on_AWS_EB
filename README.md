@@ -102,7 +102,7 @@ Refer the below screenshot for further details
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp17.png)
  
  
- e. Ensure the successful creation of environment (with health check erros is acceptable) .It will take minimum 10mins to create the environment. 
+ e. Ensure the successful creation of environment ( health check error is acceptable) . It will take minimum 10mins to create the environment. 
  
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp16.png)
  
