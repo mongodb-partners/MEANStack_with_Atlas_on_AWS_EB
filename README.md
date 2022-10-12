@@ -133,7 +133,7 @@ sample endpoint:  http://partner-eb-meanstack.us-east-1.elasticbeanstalk.com/
 ## Summary:
 
 Any containerized application can be deployed within no time using this template. 
-Please check out the “Application Modernization with Fargate” to have similar deployments on AWS Fargate
+Please check out the [Application Modernization with Fargate](https://github.com/mongodb-partners/MEANStack_with_Atlas_on_Fargate) to have similar deployments on AWS Fargate
 
 Pls share your feedback/queries to partners@mongodb.com
 
