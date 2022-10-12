@@ -10,7 +10,7 @@ This tutorial is intended for those who want to
 4. Want to try out the AWS Elastic Beanstalk and MongoDB Atlas 
 
 ## [MongoDB Atlas](https://www.mongodb.com/atlas) 
-MongoDB Atlas is an all-purpose database having features like Document Model, Geo-spatial, Time-seires, hybrid deployment, and multi-cloud services.
+MongoDB Atlas is an all-purpose database having features like Document Model, Geo-spatial, Time-series, hybrid deployment, and multi-cloud services.
 It evolved as a "Developer Data Platform", intended to reduce the developers' workload on the development and management of the database environment.
 It also provides a free tier to test out the application/database features.
 
