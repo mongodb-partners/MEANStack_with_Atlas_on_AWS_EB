@@ -46,7 +46,7 @@ Set up the Elastic Beanstalk cli based on your Operating System using the [link]
          git clone https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB.git
  
         
- b. Select database parameters in .env file and uncomment the line.(MEANSTACKwithAtlasonAWSEB --> partner-eb-meanstack-atlas --> server --> .env)
+ b. Select database parameters in .env file and **uncomment** the line.(MEANSTACKwithAtlasonAWSEB --> partner-eb-meanstack-atlas --> server --> .env)
   
   Refer the [link](https://www.mongodb.com/docs/guides/atlas/connection-string/) for getting the MongoDB Atlas connection string 
  
