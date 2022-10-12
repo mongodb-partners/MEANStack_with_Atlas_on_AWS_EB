@@ -32,7 +32,7 @@ Configure the database for [network security](https://www.mongodb.com/docs/atlas
          
 ## Step2: Set up the Elastic Beanstalk CLI
 
-Set up the Elastic Beanstalk cli based on the your environment using the [link](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-advanced.html)
+Set up the Elastic Beanstalk cli based on your environment using the [link](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-advanced.html)
 
 
   
