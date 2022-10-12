@@ -110,7 +110,14 @@ Refer the below screenshot for further details
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp16.png)
  
         
- f. Update the configuration parameters for Loadbalancer / listeners
+ f. Update the configuration parameters for Loadbalancer 
+ 
+  update the Process - deafult port  to 8000
+  
+  Add a new process for the backend with port 5200
+  
+  insert a new listener for the backend process created.
+  
  
  ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/16.EBcreateasampleapp14.png)
  
@@ -129,6 +136,21 @@ sample endpoint:  http://partner-eb-meanstack.us-east-1.elasticbeanstalk.com/
 ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBSMeanstackOutput-1.png)
 
 ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/17.EBSMeanstackupdatedbs-1.png)
+
+
+##Troubleshoot
+
+
+Errors: 
+a) The current user does not have the correct permissions. Reason: Operation Denied. The security token included in the request is invalid.
+b) ebcli.lib.aws : Error while contacting Elastic Beanstalk Service ERROR: ('Connection aborted.', gaierror(-2, 'Name or service not known'))
+
+Steps: 
+
+a) Verify the AWS profiles is set.
+
+b) remove the folder .elasticbeanstalk (in partner-eb-meanstack-atlas directory) and restart the steps from begining.
+
 
 
 
