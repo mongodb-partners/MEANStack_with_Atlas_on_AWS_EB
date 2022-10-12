@@ -141,15 +141,18 @@ sample endpoint:  http://partner-eb-meanstack.us-east-1.elasticbeanstalk.com/
 ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/17.EBSMeanstackupdatedbs-1.png)
 
 
-##Troubleshoot
+## Troubleshoot
 
 Errors: 
+
 a) The current user does not have the correct permissions. Reason: Operation Denied. The security token included in the request is invalid.
+
 b) ebcli.lib.aws : Error while contacting Elastic Beanstalk Service ERROR: ('Connection aborted.', gaierror(-2, 'Name or service not known'))
+
 
 Steps: 
 
-a) Verify the AWS profiles is set.
+a) Verify the AWS profile is set.
 
 b) remove the folder .elasticbeanstalk (in partner-eb-meanstack-atlas directory) and restart the steps from begining.
 
