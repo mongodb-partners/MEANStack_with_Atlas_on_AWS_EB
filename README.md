@@ -22,6 +22,7 @@ AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web ap
 ## Architecture Diagram:
 ![AWS EBS with MongoDB Atlas](https://github.com/Babusrinivasan76/ebsintegrationwithatlas/blob/main/images/EBS%20Atlas%20Architecture.png)
 
+
 ## Step-by-Step Instruction for Deployment:
 
 ## Step1: Set up the MongoDB Atlas cluster
@@ -61,7 +62,7 @@ Set up the Elastic Beanstalk cli based on your Operating System using the [link]
  
 Parameters for eb init:
 
-a) Select a default region          : 1 [ select the region in which you want to deploy the Elastic Beanstalk]
+a) Select a default region          : 1 [ select the region in which you want to deploy the Elastic Beanstalk and note it down for future reference]
 
 b) Select an application to use     : default [Create new Application]
 
@@ -91,9 +92,11 @@ g) Select a keypair.                : default
  
 CNAME should be unique. if it gives an option on account of duplicate, select the default option suggested.
 
-Also pls copy and paste the DNS CNAME selected to the code as the private URL. Location: "client --> src --> app --> employee.service.ts (line 10)"
+Copy and paste the DNS CNAME selected to the code as the private URL. Location: "client --> src --> app --> employee.service.ts (line 10)"
 
 Ensure the CNAME selected and Private URL server names are the same.
+
+Also ensure the region in the URL to updated to the region selected during eb init.
 
 Refer the below screenshot for further details
  
@@ -139,7 +142,6 @@ sample endpoint:  http://partner-eb-meanstack.us-east-1.elasticbeanstalk.com/
 
 
 ##Troubleshoot
-
 
 Errors: 
 a) The current user does not have the correct permissions. Reason: Operation Denied. The security token included in the request is invalid.
