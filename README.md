@@ -3,16 +3,17 @@
 
 ## Introduction: 
 This is a technical repo to demonstrate the application deployment using MongoDB Atlas and AWS Elastic Beanstalk.
-This tuotorial is intended for those who wants to
+This tutorial is intended for those who want to
 1. Have a rapid application deployment
 2. Test out the features of an application
 3. Fail fast in their development cycle
 4. Want to try out the AWS Elastic Beanstalk and MongoDB Atlas 
 
 ## [MongoDB Atlas](https://www.mongodb.com/atlas) 
-MongoDB Atlas is an all purpose database having features like Document Model, Geo-spatial , Time-seires, hybrid deployment, multi cloud services.
-It evolved as "Developer Data Platform", intended to reduce the developers workload on development and management the database environment.
-It also provide a free tier to test out the application / database features.
+MongoDB Atlas is an all-purpose database having features like Document Model, Geo-spatial, Time-seires, hybrid deployment, and multi-cloud services.
+It evolved as a "Developer Data Platform", intended to reduce the developers' workload on the development and management of the database environment.
+It also provides a free tier to test out the application/database features.
+
 
 
 ## [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
@@ -21,7 +22,7 @@ AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web ap
 ## Architecture Diagram:
 ![AWS EBS with MongoDB Atlas](https://github.com/Babusrinivasan76/ebsintegrationwithatlas/blob/main/images/EBS%20Atlas%20Architecture.png)
 
-## Step by Step Instruction for Deployment:
+## Step-by-Step Instruction for Deployment:
 
 ## Step1: Set up the MongoDB Atlas cluster
          
@@ -32,7 +33,7 @@ Configure the database for [network security](https://www.mongodb.com/docs/atlas
          
 ## Step2: Set up the Elastic Beanstalk CLI
 
-Set up the Elastic Beanstalk cli based on your environment using the [link](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-advanced.html)
+Set up the Elastic Beanstalk cli based on your Operating System using the [link](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-advanced.html)
 
 
   
@@ -52,7 +53,7 @@ Set up the Elastic Beanstalk cli based on your environment using the [link](http
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBSMeanstackupdatedbs-2.png) 
  
   
- c. Set up the Elastic Beanstalk initialization paramters through eb init command
+ c. Set up the Elastic Beanstalk initialization parameters through eb init command
  
          eb init
  
@@ -88,9 +89,9 @@ g) Select a keypair.                : default
  
 CNAME should be unique. if it gives an option on account of duplicate, select the default option suggested.
 
-Also pls copy and paste the DNS CNAME selected to the code as the private url. Location: "client --> src --> app --> employee.service.ts (line 10)"
+Also pls copy and paste the DNS CNAME selected to the code as the private URL. Location: "client --> src --> app --> employee.service.ts (line 10)"
 
-Ensure the CNMAE selected and Private URL server names are same.
+Ensure the CNMAE selected and Private URL server names are the same.
 
 Refer the below screenshot for further details
  
@@ -102,7 +103,7 @@ Refer the below screenshot for further details
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp17.png)
  
  
- e. Ensure the successful creation of environment ( health check error is acceptable) . It will take minimum 10mins to create the environment. 
+ e. Ensure the successful creation of the environment ( health check error is acceptable). It will take minimum 10mins to create the environment.
  
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp16.png)
  
@@ -118,7 +119,7 @@ Refer the below screenshot for further details
 
 ## Step4: Test the application
 
- i. Using the endpoint created by Elastic Beanstalk test the application for CURD operations and ensure the data are reflecting in MongoDB Atlas documents
+ i. Using the endpoint created by Elastic Beanstalk test the application for CURD operations and ensure the data are reflected in MongoDB Atlas documents
  
  
 sample endpoint:  http://partner-eb-meanstack.us-east-1.elasticbeanstalk.com/
@@ -131,8 +132,10 @@ sample endpoint:  http://partner-eb-meanstack.us-east-1.elasticbeanstalk.com/
 
 ## Summary:
 
- Any contanirized application can be deployed within no time using this template. 
- Instead of ebsdemoapp.zip , you can use your application zip file and deploy the application.
- Pls share your feedback / queries to partners@mongodb.com
+Any containerized application can be deployed within no time using this template. 
+Please check out the “Application Modernization with Fargate” to have similar deployments on AWS Fargate
+
+Pls share your feedback/queries to partners@mongodb.com
+
  
 
