@@ -91,7 +91,7 @@ CNAME should be unique. if it gives an option on account of duplicate, select th
 
 Also pls copy and paste the DNS CNAME selected to the code as the private URL. Location: "client --> src --> app --> employee.service.ts (line 10)"
 
-Ensure the CNMAE selected and Private URL server names are the same.
+Ensure the CNAME selected and Private URL server names are the same.
 
 Refer the below screenshot for further details
  
