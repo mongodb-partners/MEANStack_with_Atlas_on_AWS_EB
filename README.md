@@ -119,7 +119,7 @@ Refer the below screenshot for further details
 
 ## Step4: Test the application
 
- i. Using the endpoint created by Elastic Beanstalk test the application for CURD operations and ensure the data are reflected in MongoDB Atlas documents
+ i. Using the endpoint created by Elastic Beanstalk test the application for CRUD operations and ensure the data are reflected in MongoDB Atlas documents
  
  
 sample endpoint:  http://partner-eb-meanstack.us-east-1.elasticbeanstalk.com/
