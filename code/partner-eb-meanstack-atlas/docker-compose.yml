@@ -1,0 +1,10 @@
+version: "3"
+services:
+  client:
+    build: ./client
+    ports:
+      - 8000:8080
+  server:
+    build: ./server
+    ports:
+      - 5200:5200
