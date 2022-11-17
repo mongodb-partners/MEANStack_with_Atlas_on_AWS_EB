@@ -111,7 +111,7 @@ Refer the below screenshot for further details
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp17.png)
  
  
- e. Ensure the successful creation of the environment. It will take minimum 10mins to create the environment.
+ e. Ensure the successful creation of the environment. It will take minimum 10mins to create the environment. The Health Status will be severe.
  
  <img width="863" alt="image" src="https://user-images.githubusercontent.com/101570105/202484018-6c2acd15-e09f-48a0-a59d-435069a32fb8.png">
 
