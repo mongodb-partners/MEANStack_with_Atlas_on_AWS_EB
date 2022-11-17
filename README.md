@@ -43,8 +43,8 @@ Set up the Elastic Beanstalk cli based on your Operating System using the [link]
  
  a. Git Clone the code from Repo 
  
-         git clone https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB.git
- 
+         git clone https://github.com/mongodb-partners/MEANStack_with_Atlas_on_AWS_EB.git
+         
         
  b. Select database parameters in .env file and **uncomment** the line.(MEANSTACKwithAtlasonAWSEB --> partner-eb-meanstack-atlas --> server --> .env)
   
