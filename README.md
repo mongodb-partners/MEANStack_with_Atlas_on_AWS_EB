@@ -102,31 +102,45 @@ Ensure the CNAME selected and Private URL server names are the same.
 
 Also ensure the region in the URL to updated to the region selected during eb init.
 
-Refer the below screenshot for further details
  
- 
- c) Enter the VPC ID: <Enter the VPCID to which the privatelink is created in MongoDB Atlas cluster>
+c) Enter the VPC ID: "Enter the VPCID to which the privatelink is created in MongoDB Atlas cluster"
          
- d)Do you want to associate a public IP address? (Y/n): <default>
+d) Do you want to associate a public IP address? (Y/n): default
         
-e)Enter a comma-separated list of Amazon EC2 subnets: <enter the public subnets>
+e) Enter a comma-separated list of Amazon EC2 subnets: enter the public subnets as comma separated
+
+f) Enter a comma-separated list of Amazon ELB subnets: enter the public subnets as comma separated
+
+g) Do you want the load balancer to be public? (Select no for internal) (Y/n): 
+
+h) Enter a comma-separated list of Amazon VPC security groups:
 
 
- f) Select a load balancer type     : default [application]
+
+
+i) Select a load balancer type     : default [application]
+
+optional parameter:
+
+Your account has one or more sharable load balancers. Would you like your new environment to use a shared load balancer? (y/N): default
  
- g) Would you like to enable Spot Fleet requests for this environment? (y/N): default [N]
+j) Would you like to enable Spot Fleet requests for this environment? (y/N): default [N]
+         
+ 
+ Refer the below screenshot for further details
  
  
- ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp17.png)
+ <img width="1276" alt="image" src="https://user-images.githubusercontent.com/101570105/202537988-3b782295-9ee3-423e-9d37-360e06c4ae97.png">
+
  
  
- h. Ensure the successful creation of the environment. It will take minimum 10mins to create the environment. The Health Status will be severe.
+k) Ensure the successful creation of the environment. It will take minimum 10mins to create the environment. The Health status can be Severe.
  
  <img width="863" alt="image" src="https://user-images.githubusercontent.com/101570105/202484018-6c2acd15-e09f-48a0-a59d-435069a32fb8.png">
 
  
         
- i. Update the configuration parameters for Loadbalancer in the below sequence (only)
+l) Update the configuration parameters for Loadbalancer in the below sequence (only)
  
   a. update the Processes - deafult : Change the port to 8000
   
@@ -137,8 +151,8 @@ e)Enter a comma-separated list of Amazon EC2 subnets: <enter the public subnets>
  
  ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/16.EBcreateasampleapp14.png)
  
+ m) Ensure the configuration changes are applied successfully
  
- j. Ensure the configuration changes are applied successfully
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp15.png)
 
 
