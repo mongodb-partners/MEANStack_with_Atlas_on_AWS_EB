@@ -87,7 +87,8 @@ g) Select a keypair.                : default
         
  d. Create the environment with 'eb create'.
  
-         eb create
+         eb create --vpc
+
  
  a) Enter Environment Name          : default [partner-eb-meanstack-atlas-dev]
  
@@ -103,21 +104,29 @@ Also ensure the region in the URL to updated to the region selected during eb in
 
 Refer the below screenshot for further details
  
- c) Select a load balancer type     : default [application]
  
- d) Would you like to enable Spot Fleet requests for this environment? (y/N): default [N]
+ c) Enter the VPC ID: <Enter the VPCID to which the privatelink is created in MongoDB Atlas cluster>
+         
+ d)Do you want to associate a public IP address? (Y/n): <default>
+        
+e)Enter a comma-separated list of Amazon EC2 subnets: <enter the public subnets>
+
+
+ f) Select a load balancer type     : default [application]
+ 
+ g) Would you like to enable Spot Fleet requests for this environment? (y/N): default [N]
  
  
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp17.png)
  
  
- e. Ensure the successful creation of the environment. It will take minimum 10mins to create the environment. The Health Status will be severe.
+ h. Ensure the successful creation of the environment. It will take minimum 10mins to create the environment. The Health Status will be severe.
  
  <img width="863" alt="image" src="https://user-images.githubusercontent.com/101570105/202484018-6c2acd15-e09f-48a0-a59d-435069a32fb8.png">
 
  
         
- f. Update the configuration parameters for Loadbalancer in the below sequence (only)
+ i. Update the configuration parameters for Loadbalancer in the below sequence (only)
  
   a. update the Processes - deafult : Change the port to 8000
   
@@ -129,7 +138,7 @@ Refer the below screenshot for further details
  ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/16.EBcreateasampleapp14.png)
  
  
- g. Ensure the configuration changes are applied successfully
+ j. Ensure the configuration changes are applied successfully
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp15.png)
 
 
