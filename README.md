@@ -188,6 +188,13 @@ a) Verify the AWS profile is set.
 b) remove the folder .elasticbeanstalk (in partner-eb-meanstack-atlas directory) and restart the steps from begining.
 
 
+To redeploy the solution:
+
+         ebs deploy
+
+Logs:
+<img width="1660" alt="image" src="https://user-images.githubusercontent.com/101570105/202539693-51cd1e18-9b0e-4649-a922-f7b496836964.png">
+
 
 
 ## Summary:
