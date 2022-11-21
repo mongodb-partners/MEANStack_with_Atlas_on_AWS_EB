@@ -158,6 +158,8 @@ l) Update the configuration parameters for Loadbalancer in the below sequence (o
 
 ## Step4: Test the application
 
+ Before testing the application, ensure the security group created by "eb create" command is opened for the port 80. This will ensure the health check is green
+
  The endpoint of the application is displayed in the elastic beanstalk environment. ex: partner-eb-meanstack-atlas-dev2.us-east-1.elasticbeanstalk.com
  
  ![](https://github.com/Babusrinivasan76/MEANSTACKwithAtlasonAWSEB/blob/main/images/ebfinalpage.png)
