@@ -85,9 +85,12 @@ g) Select a keypair.                : default
  ![](https://github.com/Babusrinivasan76/ebintegrationwithatlas/blob/main/images/16.EBcreateasampleapp10.png)
  
         
- d. Create the environment with 'eb create'.
+ d. Create the environment with 'eb create'. 
  
          eb create --vpc
+
+
+Note: if you want to use the default vpc or not using private link for MongoDB Atlas, use only "eb create".
 
  
  a) Enter Environment Name          : default [partner-eb-meanstack-atlas-dev]
