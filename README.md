@@ -137,7 +137,7 @@ j) Would you like to enable Spot Fleet requests for this environment? (y/N): def
 
  
  
-k) Ensure the successful creation of the environment. It will take minimum 10mins to create the environment. The Health status can be Severe.
+k) Ensure the successful creation of the environment. It will take minimum 10mins to create the environment. The Health status will be initiall "Green" and then change to "Severe" , when the loadbalancer started to validate the backend. This is the normal flow.
  
  <img width="863" alt="image" src="https://user-images.githubusercontent.com/101570105/202484018-6c2acd15-e09f-48a0-a59d-435069a32fb8.png">
 
