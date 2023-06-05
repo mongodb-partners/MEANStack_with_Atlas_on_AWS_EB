@@ -57,7 +57,7 @@ Set up the Elastic Beanstalk cli based on your Operating System using the [link]
   
  c. Set up the Elastic Beanstalk initialization parameters through eb init command
  
-         cd MEANSTACKwithAtlasonAWSEB/partner-eb-meanstack-atlas
+         cd code/partner-eb-meanstack-atlas
          
          eb init
  
